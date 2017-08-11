@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    position: fixed;
+    bottom: 0;
+    
+}

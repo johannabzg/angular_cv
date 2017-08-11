@@ -1,0 +1,6 @@
+div {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

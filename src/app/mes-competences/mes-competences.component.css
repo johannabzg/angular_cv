@@ -1,0 +1,14 @@
+div {
+    height: 100%;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+article {
+    background-color: antiquewhite;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
