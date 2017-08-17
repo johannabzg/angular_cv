@@ -4,3 +4,8 @@ body, html {
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-image: url(assets/font_cool.jpg);
+    background-clip: content-box;
+}
