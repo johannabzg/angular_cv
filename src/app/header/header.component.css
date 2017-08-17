@@ -2,7 +2,7 @@ header {
     width: 100%;
    /* position: fixed;*/
     height: 50px;
-    background-color: crimson;
+    background-color: #6c93da;
     display: flex;
     justify-content: space-around;
 }

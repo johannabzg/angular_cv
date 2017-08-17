@@ -1,6 +1,15 @@
 div {
-    background-color: aqua;
+    background-image: url(../../assets/pc.jpg);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+}
+
+p {
+    align-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    width: 30%;
+    
 }
