@@ -7,5 +7,5 @@ body, html {
 
 body {
     background-image: url(assets/font_cool.jpg);
-    background-clip: content-box;
+    background-size: cover;
 }

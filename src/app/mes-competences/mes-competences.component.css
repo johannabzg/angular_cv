@@ -7,17 +7,17 @@ div {
     background-color: coral;
     display: flex;
     justify-content: space-around;
-
 }
 
 h3 {
     text-align: center;
-    
 }
 
 article {
-    background-color: antiquewhite;
+    background-color: #f1e9a3;
     height: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
 }
