@@ -3,9 +3,39 @@
 body, html {
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    background-image: url(assets/font_cool.jpg);
+    /*background-image: url(assets/font_cool.jpg);*/
+    background-image: url(assets/giphy.gif);
     background-size: cover;
+    
+}
+
+@font-face {
+    font-family: "hollé";
+    src: url("font/Caviar.ttf");
+}
+
+@font-face {
+    font-family: "book";
+    src: url("font/Book.otf");
+}
+
+/*#canvas-background {
+width: 100%;
+height: 100%;
+}*/
+
+
+app-presentation, app-mon-xp {
+    position: absolute;
+    top: 30%;
+}
+
+app-mes-competences, app-contact {
+    position: relative;
+    top: 200px;
 }

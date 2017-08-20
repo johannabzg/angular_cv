@@ -1,5 +1,6 @@
 header {
     width: 100%;
+    align-items: center;
    /* position: fixed;*/
     height: 50px;
     background-color: #6c93da;
@@ -18,4 +19,10 @@ li {
     list-style: none;
     display: inline;
     padding-left: 10px;
+    font-family: "hollé";
+}
+
+p {
+    font-family: "hollé";
+    font-size: 1.2em;
 }

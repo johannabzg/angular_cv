@@ -2,14 +2,20 @@
     <p>
         Bouzige Johanna
     </p>
-     <p>
-       Developpeuse Web Front-end
+    <p>
+        Developpeuse Web Front-end
     </p>
     <ul>
-        <li>Présentation</li>
-        <li>Compétence</li>
-        <li>Expérience</li>
-        <li>Réalisation</li>
-        <li>Contact</li>
+        <li>
+            <a routerLink="/presentation" routerLinkActive="active" >Présentation</a></li>
+        <li>
+            <a routerLink="/competence" routerLinkActive="active" >Compétences</a></li>
+        <li>
+            <a routerLink="/experiences" routerLinkActive="active" >Expérience</a></li>
+<!--        <li>
+            <a routerLink="/realisations" routerLinkActive="active" >Réalisations</a></li>-->
+        <li>
+            <a routerLink="/contact" routerLinkActive="active" >Contact</a></li>
     </ul>
 </header>
+<router-outlet></router-outlet>
