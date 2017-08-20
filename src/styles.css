@@ -36,8 +36,8 @@ app-presentation{
 }
 
 app-mon-xp {
-    position: absolute;
-    top: 15%;
+    position: relative;
+    top: 110px;
 }
 
 app-mes-competences, app-contact {

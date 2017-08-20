@@ -9,7 +9,7 @@ import { MonXPComponent } from './mon-xp/mon-xp.component';
 import { MesCompetencesComponent } from './mes-competences/mes-competences.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
-
+import { FormsModule }   from '@angular/forms';
 
 
 const appRoutes: Routes = [
@@ -32,6 +32,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,  
     RouterModule.forRoot(appRoutes)  
   ],
   providers: [],

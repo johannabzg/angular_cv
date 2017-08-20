@@ -13,20 +13,21 @@ h3 {
 .experience {
     height: 100%;
     width: 80%;
-    align-content: center;
-    background-color: rgba(240, 255, 248, 0.33);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     font-family: "book";
 }
 
 article {
-    background-color: royalblue;
+    background-color: rgb(220, 229, 255);;
     height: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
+    align-self: left;
      
+}
+
+a {
+    color: #0949ff;
 }

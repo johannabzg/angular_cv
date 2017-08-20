@@ -1,9 +1,9 @@
 header {
     width: 100%;
     align-items: center;
-   /* position: fixed;*/
+    /* position: fixed;*/
     height: 50px;
-    background-color: #6c93da;
+    background: #5175C0;
     display: flex;
     justify-content: space-around;
 }
@@ -29,4 +29,20 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.linkAnim {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.linkAnim:hover {
+    background-color: #81b3de;
+    color: #fff;
+    padding: 24px 10px;
+    box-shadow: 1px 3px 10px rgba(25, 30, 35, 0.9);;
 }
