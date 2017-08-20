@@ -26,3 +26,7 @@ p {
     font-family: "hollé";
     font-size: 1.2em;
 }
+
+a {
+    text-decoration: none;
+}

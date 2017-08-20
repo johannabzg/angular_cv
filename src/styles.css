@@ -30,9 +30,14 @@ height: 100%;
 }*/
 
 
-app-presentation, app-mon-xp {
+app-presentation{
     position: absolute;
     top: 30%;
+}
+
+app-mon-xp {
+    position: absolute;
+    top: 15%;
 }
 
 app-mes-competences, app-contact {
