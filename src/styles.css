@@ -44,20 +44,22 @@ app-presentation {
     position: absolute;
     top: 20%;
     align-items: center;
+    width: 100%;
 }
 
-app-mon-xp {
+app-mes-competences {
     position: absolute;
-    top: 110px;
+    top: 10%;
     align-items: center;
+    width: 100%;
 }
 
-app-mes-competences,
 app-contact,
 app-my-portfolio,
-app-mentions {
+app-mentions,
+app-mon-xp {
     position: absolute;
-    top: 200px;
+    top: 20%;
     align-items: center;
     width: 100%;
 }
