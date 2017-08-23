@@ -8,8 +8,12 @@ div {
 }
 
 p {
-   /* position: fixed;*/
+   font-family: 'hollé';
     bottom: 0;
-    color: #808080;
+    color: #fff;
     
+}
+
+a {
+    color: #fff;
 }

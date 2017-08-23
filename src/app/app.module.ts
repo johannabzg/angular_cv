@@ -12,7 +12,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule }   from '@angular/forms';
 import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
-
+import { MentionsComponent } from './mentions/mentions.component';
+/*
 import 'web-animations-js/web-animations.min';
 import 'hammerjs/hammer';
 
@@ -31,6 +32,7 @@ import 'core-js/es6/map';
 import 'core-js/es6/set';
 
 import 'web-animations-js';
+*/
 
 
 const appRoutes: Routes = [
@@ -38,7 +40,8 @@ const appRoutes: Routes = [
   { path: 'experiences', component: MonXPComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'competence', component: MesCompetencesComponent },
-  { path: 'portfolio', component: MyPortfolioComponent}
+  { path: 'portfolio', component: MyPortfolioComponent},
+  { path: 'mentions', component:  MentionsComponent }
      
 ];
 
@@ -51,7 +54,8 @@ const appRoutes: Routes = [
     MonXPComponent,
     MesCompetencesComponent,
     ContactComponent,
-    MyPortfolioComponent
+    MyPortfolioComponent,
+    MentionsComponent  
   ],
   imports: [
     BrowserModule,
@@ -63,5 +67,3 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-

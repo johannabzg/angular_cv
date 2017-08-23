@@ -19,15 +19,16 @@ body {
     src: url("font/graph.ttf");
 }
 
+
 @font-face {
     font-family: "dess";
     src: url("font/dessin.ttf");
 }
 
-@font-face {
+/*@font-face {
     font-family: "dev";
-    src: url("font/dev.ttf");
-}
+    src: url("font/dev.ttf"); à plus.
+}*/
 
 @font-face {
     font-family: "hollé";
@@ -53,7 +54,8 @@ app-mon-xp {
 
 app-mes-competences,
 app-contact,
-app-my-portfolio {
+app-my-portfolio,
+app-mentions{
     position: absolute;
     top: 200px;
     align-items: center;
