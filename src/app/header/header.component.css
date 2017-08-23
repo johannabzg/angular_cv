@@ -1,11 +1,46 @@
 header {
     width: 100%;
     align-items: center;
-    /* position: fixed;*/
-    height: 50px;
+     position: fixed;
+    height: 60px;
     background: #5175C0;
     display: flex;
     justify-content: space-around;
+    top: 0;
+}
+
+h3 {
+    text-shadow:  0 1px 0 #C7C8CA, 0 2px 0 #a59b9b, 0 3px 0 #9D9FA2, 0 4px 0 #595b5d, 0 5px 0 #56585f, 0 6px 0 #4d4e50;
+    color: #fff;
+    font-family: 'hollé';
+    margin: inherit;
+}
+
+.dev {
+    /*font-family: "dev";*/
+    font-size: 1.2em;
+    background: -webkit-linear-gradient( #061c3e, #4826ce, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:0 1px 0 #fff, 0 2px 0 #e9eff9, 0 3px 0 #9D9FA2, 0 4px 0 #8A8C8E, 0 5px 0 #77787B, 0 6px 0 #636466, 0 7px 0 #4D4D4F, 0 8px 7px #001135;
+}
+
+.graph {
+    font-family: "graph";
+    font-size: 2.3em;
+    background: -webkit-linear-gradient( #031a58, #5743a7, #580505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 1px 0 #fff, 0 2px 0 #010915, 0 3px 0 #9D9FA2, 0 4px 0 #8A8C8E, 0 5px 0 #77787B, 0 6px 0 #636466, 0 7px 0 #4D4D4F, 0 8px 7px #001135;
+}
+
+.dess {
+    font-family: "dess";
+    font-size: 2.4em;
+    background: -webkit-linear-gradient( #4542ff, #3c3192, #690000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 1px 0 #fff, 0 2px 0 #544242, 0 3px 0 #9D9FA2, 0 4px 0 #8A8C8E, 0 5px 0 #77787B, 0 6px 0 #636466, 0 7px 0 #4D4D4F, 0 8px 7px #001135;
 }
 
 ul {
@@ -13,6 +48,7 @@ ul {
     justify-content: space-around;
     flex-direction: row;
     color: #fff;
+    margin: inherit;
 }
 
 li {
@@ -24,7 +60,11 @@ li {
 
 p {
     font-family: "hollé";
-    font-size: 1.2em;
+    font-size: 1.5em;
+}
+
+p span {
+    margin-right: 15px;
 }
 
 a {
@@ -37,12 +77,21 @@ a {
     font-size: 20px;
     text-decoration: none;
     padding: 0 10px;
-    margin: 0 10px;
+   
 }
 
 .linkAnim:hover {
     background-color: #81b3de;
     color: #fff;
     padding: 24px 10px;
-    box-shadow: 1px 3px 10px rgba(25, 30, 35, 0.9);;
+    box-shadow: 1px 3px 10px rgba(25, 30, 35, 0.9);
+    ;
 }
+
+
+/*item {
+    font-size: 32px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 1px 0 #C7C8CA, 0 2px 0 #B1B3B6, 0 3px 0 #9D9FA2, 0 4px 0 #8A8C8E, 0 5px 0 #77787B, 0 6px 0 #636466, 0 7px 0 #4D4D4F, 0 8px 7px #001135;
+}*/

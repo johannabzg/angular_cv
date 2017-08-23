@@ -1,4 +1,4 @@
-let granimInstance = {
+/*let granimInstance = {
     element: '#canvas-background',
     direction: 'left-right',
     opacity: [1, 1],
@@ -11,4 +11,4 @@ let granimInstance = {
           ]
     }
 }
-    };
+    };*/

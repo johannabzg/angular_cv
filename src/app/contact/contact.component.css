@@ -1,3 +1,6 @@
-div {
-    background-color: tomato;
+.container {
+    background-color: rgba(83, 169, 243, 0.85);
+    border-radius: 20px;
+
 }
+

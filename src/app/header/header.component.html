@@ -1,21 +1,25 @@
 <header>
-    <p>
+    <h3>
         Bouzige Johanna
-    </p>
+    </h3>
     <p>
-        Developpeuse Web Front-end
+        <span class="graph">Graphiste</span><span class="dess"> Dessinatrice</span><span class="dev">Developpeuse Web Front-end</span>
     </p>
     <ul>
         <li>
-            <a class="linkAnim" routerLink="/presentation" routerLinkActive="active" >Présentation</a></li>
+            <a ng-model="MyNav-1" class="linkAnim" routerLink="/presentation" routerLinkActive="active">Présentation</a></li>
         <li>
-            <a class="linkAnim" routerLink="/competence" routerLinkActive="active" >Compétences</a></li>
+            <a ng-model="MyNav-2" class="linkAnim" routerLink="/competence" routerLinkActive="active">Compétences</a></li>
         <li>
-            <a class="linkAnim" routerLink="/experiences" routerLinkActive="active" >Expérience</a></li>
-<!--        <li>
-            <a class="linkAnim" routerLink="/realisations" routerLinkActive="active" >Réalisations</a></li>-->
+            <a ng-model="MyNav-3" class="linkAnim" routerLink="/experiences" routerLinkActive="active">Expérience</a></li>
+        <!--        <li>
+            <a ng-model="MyNav-4" class="linkAnim" routerLink="/realisations" routerLinkActive="active" >Réalisations</a></li>-->
         <li>
-            <a class="linkAnim" routerLink="/contact" routerLinkActive="active" >Contact</a></li>
+            <a ng-model="MyNav-5" class="linkAnim" routerLink="/contact" routerLinkActive="active">Contact</a></li>
+
+        <li>
+            <a ng-model="MyNav-6" class="linkAnim" routerLink="/portfolio" routerLinkActive="active">Portfolio</a></li>
     </ul>
+
 </header>
 <router-outlet></router-outlet>
