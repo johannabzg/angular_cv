@@ -19,11 +19,11 @@ body {
     src: url("font/graph.ttf");
 }
 
-
 @font-face {
     font-family: "dess";
     src: url("font/dessin.ttf");
 }
+
 
 /*@font-face {
     font-family: "dev";
@@ -42,20 +42,20 @@ body {
 
 app-presentation {
     position: absolute;
-    top: 30%;
-     align-items: center;
+    top: 20%;
+    align-items: center;
 }
 
 app-mon-xp {
     position: absolute;
     top: 110px;
-     align-items: center;
+    align-items: center;
 }
 
 app-mes-competences,
 app-contact,
 app-my-portfolio,
-app-mentions{
+app-mentions {
     position: absolute;
     top: 200px;
     align-items: center;

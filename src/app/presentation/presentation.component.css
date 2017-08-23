@@ -1,10 +1,10 @@
 div {
-    background-image: url(../../assets/pc.jpg);
-    opacity: 0.9;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 p {
@@ -12,7 +12,8 @@ p {
     text-align: center;
     font-size: 1.5em;
     width: 30%;
-    opacity: inherit;
+    color: azure;
+    opacity: 1;
     font-family: "book";
     
 }
@@ -20,8 +21,10 @@ p {
 img {
     opacity: 1;
     height: 250px;
+    width: 250px;
     border-radius: 25px;
-    margin: 2px;
+    margin-bottom: 20px;
+    
 }
 
 
