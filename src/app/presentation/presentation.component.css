@@ -18,7 +18,10 @@ p {
 }
 
 img {
-    opacity: inherit;
+    opacity: 1;
+    height: 250px;
+    border-radius: 25px;
+    margin: 2px;
 }
 
 
