@@ -11,14 +11,12 @@ h3 {
 
 h4 {
     font-family: 'hollé';
-    /*background-color: cadetblue;*/
-    border-left: 7px #08548a solid;
+    border-left: 7px #3d89bf solid;
     padding: 2px;
     color: #1c1738;
     width: 30%;
-     background: -webkit-linear-gradient( #4542ff, #3c3192, #690000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(left, #9897e0, #bdb9d8, #dce5ff);
+
 }
 
 .experience {

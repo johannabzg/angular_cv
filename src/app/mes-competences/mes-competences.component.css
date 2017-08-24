@@ -20,7 +20,7 @@ h2 {
 article {
     background-color: rgba(150, 181, 220, 0.88);
     height: 100%;
-    width: 70%;
+    width: 40%;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -33,6 +33,7 @@ article {
 
 .progress-bar {
     background-color: green;
+ 
 }
 
 li {
