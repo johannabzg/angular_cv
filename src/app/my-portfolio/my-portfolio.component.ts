@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 
 @Component({
@@ -9,8 +9,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyPortfolioComponent implements OnInit {
     
-    image = IMAGE;
-    
   constructor() { }
 
   ngOnInit() {
@@ -18,17 +16,31 @@ export class MyPortfolioComponent implements OnInit {
 
 }
 
-export class MesImages {
-    id: number;
-    name: string;
-    
-    
-}
+export class GalleryComponent { 
+ 
+   @Input() datasource;
+   selectedImage;
+ 
+   setSelectedImage(image){
+      this.selectedImage= image;	
+   }
 
-const IMAGE: MesImages[] = [
-    { id: 1, name: 'Mr. Nice' },  
-    { id: 2, name: 'Mr. Nice' },
-    { id: 3, name: 'Mr. Nice' },
-    { id: 4, name: 'Mr. Nice' },
-    { id: 5, name: 'Mr. Nice' },
-];
+   images;
+ 
+   constructor(){
+      this.images = [
+	{"src":"../../"},
+	{"url":"http://your_image2_url"},
+	{"url":"http://your_image3_url"},
+	{"url":"http://your_image4_url"},
+	{"url":"http://your_image5_url"},
+	{"url":"http://your_image6_url"},
+	{"url":"http://your_image7_url"},
+	{"url":"http://your_image8_url"},
+	{"url":"http://your_image9_url"},
+	{"url":"http://your_image10_url"},
+	{"url":"http://your_image11_url"},
+	{"url":"http://your_image12_url"}
+      ];
+   }
+}
