@@ -1,16 +1,37 @@
+<script type="text/javascript" href="mail.js"></script>
+<script src="//code.angularjs.org/snapshot/angular.min.js"></script>
+<script>
+    angular.module('emailExample', [])
+        .controller('ExampleController', ['$scope', function($scope) {
+            $scope.email = {
+                text: 'me@example.com'
+            };
+        }]);
+
+</script>
+
+
+
 <div ng-show="MyNav-5" class="container">
     <h1>Contact</h1>
-    <form>
+    <form name="myForm" ng-controller="ExampleController">
         <div class="form-group">
-            <label for="name">Nom</label>
-            <input placeholder="nom" type="text" class="form-control" id="name" required>
+         <label>Email:
+           <input type="email" name="input" ng-model="email.text" required>
+         </label>
+                <div role="alert">
+                <span class="error" ng-show="myForm.input.$error.required">
+        Required!</span>
+                <span class="error" ng-show="myForm.input.$error.email">
+        Not valid email!</span>
+            </div>
         </div>
 
-      <div class="form-group">
-            <label for="email">Email</label>
-            <input placeholder="email@exemple.com" type="text" class="form-control" id="email" required>
+        <div class="form-group">
+            <label for="email">Nom</label>
+            <input placeholder="Nom" type="text" class="form-control" id="nom" required>
         </div>
-       
+
         <div class="form-group">
             <label for="sujet">Sujet</label>
             <input placeholder="sujet" type="text" class="form-control" id="sujet">

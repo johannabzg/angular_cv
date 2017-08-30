@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -11,5 +11,16 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
+    
+/*    <input type="email"
+       ng-model="string"
+       [name="string"]
+       [required="string"]
+       [ng-required="string"]
+       [ng-minlength="number"]
+       [ng-maxlength="number"]
+       [pattern="string"]
+       [ng-pattern="string"]
+       [ng-change="string"]>*/
 
 }

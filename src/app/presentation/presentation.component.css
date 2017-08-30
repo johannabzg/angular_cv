@@ -7,15 +7,46 @@ div {
     width: 100%;
 }
 
+.lien {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lien img {
+    height: 50px;
+    width: 50px;
+}
+
 p {
     align-content: center;
     text-align: center;
     font-size: 1.5em;
+    background-color: rgba(44, 47, 47, 0.85);
+    border-radius: 20px;
+    padding: 10px;
     width: 30%;
     color: azure;
     opacity: 1;
     font-family: "book";
-    
+    margin-top: 10px;
+}
+
+button {
+    background-color: #178fd1;
+    position: relative;
+    right: 200px;
+    bottom: 50px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 1px 0 #e2dede, 0 2px 0 #b3b1b1, 0 3px 0 #9D9FA2, 0 4px 0 #8A8C8E, 0 4px 0;
+}
+
+button:hover {
+    box-shadow:  0 2px 0 #b3b1b1, 0 2px 0;
+    margin-top: 2px;
 }
 
 img {
@@ -24,8 +55,9 @@ img {
     width: 250px;
     border-radius: 25px;
     margin-bottom: 20px;
-    
 }
 
-
-  
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
