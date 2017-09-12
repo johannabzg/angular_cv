@@ -7,29 +7,33 @@ div {
     width: 100%;
 }
 
+
 .lien {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    bottom: 50px;
 }
 
 .lien img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+
 }
 
 p {
     align-content: center;
     text-align: center;
     font-size: 1.5em;
-    background-color: rgba(44, 47, 47, 0.85);
+    background-color: rgba(241, 255, 255, 0.32);
     border-radius: 20px;
     padding: 10px;
     width: 30%;
-    color: azure;
+    color:  #010344;;
     opacity: 1;
     font-family: "book";
-    margin-top: 10px;
+    bottom: 20px;
 }
 
 button {
@@ -46,7 +50,7 @@ button {
 
 button:hover {
     box-shadow:  0 2px 0 #b3b1b1, 0 2px 0;
-    margin-top: 2px;
+   padding-top: 2px;
 }
 
 img {

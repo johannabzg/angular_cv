@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    /*background-image: url(assets/font_cool.jpg);*/
-    background-image: url(assets/giphy.gif);
+    background-image: url(assets/font_cool.jpg);
+ /*   background-image: url(assets/giphy.gif);*/
     background-size: cover;
 }
 
@@ -25,11 +25,6 @@ body {
 }
 
 
-/*@font-face {
-    font-family: "dev";
-    src: url("font/dev.ttf"); à plus.
-}*/
-
 @font-face {
     font-family: "hollé";
     src: url("font/Caviar.ttf");
@@ -40,26 +35,28 @@ body {
     src: url("font/Book.otf");
 }
 
-app-presentation {
-    position: absolute;
-    top: 20%;
-    align-items: center;
-    width: 100%;
-}
-
-app-mes-competences {
-    position: absolute;
-    top: 10%;
-    align-items: center;
-    width: 100%;
-}
-
 app-contact,
 app-my-portfolio,
 app-mentions,
-app-mon-xp {
+app-mon-xp,
+app-presentation,
+app-mes-competences {
     position: absolute;
-    top: 20%;
     align-items: center;
     width: 100%;
+}
+
+app-contact {
+    top: 20%;   
+}
+
+app-presentation {
+    top: 15%;
+}
+
+app-mes-competences,
+app-my-portfolio,
+app-mentions,
+app-mon-xp {
+    top: 10%;
 }

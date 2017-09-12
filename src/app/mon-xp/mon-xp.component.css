@@ -7,6 +7,7 @@ div {
 h3 {
     text-align: center;
     font-family: "book";
+    font-size: 2.5em;
 }
 
 h4 {
@@ -29,12 +30,13 @@ h4 {
 
 article {
     background-color: rgb(220, 229, 255);
-    ;
     height: 100%;
     margin-top: 20px;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     align-self: left;
+    box-shadow: 2px 2px 7px black;
+    
 }
 
 a {
