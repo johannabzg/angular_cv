@@ -18,7 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: '/presentation', pathMatch: 'full'},
+  { path: '', redirectTo: '/presentation', pathMatch: 'full'},
   { path: 'presentation', component: PresentationComponent  },
   { path: 'experiences', component: MonXPComponent },
   { path: 'contact', component: ContactComponent },
@@ -50,6 +50,8 @@ const appRoutes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 
 
 
